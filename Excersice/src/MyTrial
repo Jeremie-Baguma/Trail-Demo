@@ -1,0 +1,7 @@
+CREATE TABLE Ingredient (
+    IngredientID INT PRIMARY KEY,
+    IngredientName VARCHAR(50) NOT NULL,
+    Quantity INT NOT NULL,
+    Unit VARCHAR(20),
+    Cost DECIMAL(5, 2)
+);
